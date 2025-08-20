@@ -20,8 +20,8 @@ def upload_to_wandb(run_name: str, all_results: List[Dict[str, Any]],
 
     # プロジェクト名を固定してオンラインモードで初期化
     wandb.init(
-        project="minicomp-test-safe",  # 新規プロジェクト名
-        entity=entity_name,
+        project="minicomp-test2",  # 新規プロジェクト名
+        entity="haraguchi-chiba-university",
         name=run_name,
         config={
             "num_tasks": len(all_results),
