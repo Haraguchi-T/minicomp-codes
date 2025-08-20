@@ -1,1 +1,1 @@
-test
+uv run otameshi.py
